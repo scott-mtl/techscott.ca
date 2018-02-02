@@ -17,7 +17,7 @@ theme = "hugo-minimalist-theme"
     # Link custom assets relative to /static
     avatar = "img/profile-image.png"
     header_background = "img/desk.jpg"
-    header_title = "Customizable header title"
+    header_title = "My awesome static site"
     copyright = "Powered by [Hugo](http://gohugo.io)."
     custom_css = []
     custom_js  = []
