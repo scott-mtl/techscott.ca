@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://mtlweb.ca.s3-website.us-east-2.amazonaws.com/"
 languageCode = "en-us"
 title = "My awesome static site"
 # Define how many pages appear per site
