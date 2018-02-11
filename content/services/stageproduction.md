@@ -1,12 +1,12 @@
 ---
-title: "Magna"
+title: "Stage Production"
 description: "Lorem Etiam Nullam"
-slug: "magna"
+slug: "stageproduction"
 image: pic09.jpg
 keywords: ""
 categories: 
     - ""
     - ""
-date: 2017-10-31T22:26:09-05:00
+date: 2017-10-31T20:00:00-05:00
 draft: false
 ---

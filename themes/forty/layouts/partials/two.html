@@ -1,5 +1,6 @@
 {{ "<!-- Two -->" | safeHTML}}
     <section id="two">
+        <a name="two"></a>
         <div class="inner">
             <header class="major">
                 <h2>{{ .Site.Params.Two.title}}</h2>
@@ -7,6 +8,7 @@
             <p>{{ .Site.Params.Two.subtitle }}</p>
             <ul class="actions">
                 <li><a href="{{ .Site.Params.Two.url | absURL}}" class="button next">{{ .Site.Params.Two.buttonText }}</a></li>
+                <li><a href="{{ .Site.Params.Two.url2 | absURL}}" class="button next">{{ .Site.Params.Two.buttonText2 }}</a></li>
             </ul>
         </div>
     </section>

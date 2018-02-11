@@ -39,22 +39,26 @@ googleAnalytics = ""
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
-
+ 
     [[params.navigation.links]]
       name = "Home"
       url = "#"
 
+   [[params.navigation.links]]
+      name = "About Me"  
+      url = "#two"
+
     [[params.navigation.links]]
       name = "Audiovisual Services"
-      url = "audiovisual.html"
+      url = "services/audiovisual"
     
     [[params.navigation.links]]
       name = "Stage Production"
-      url = "stageproduction.html"
+      url = "services/stageproduction"
 
     [[params.navigation.links]]
       name = "Web Development"  
-      url = "webdevelopment.html"
+      url = "services/webdevelopment"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -80,7 +84,7 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "David Scott"
     subtitle = "Multidisciplinary technician and programmer, based in Montreal, QC, Canada."
-    buttonText = "My Services"
+    buttonText = "Services Overview"
 
 
   # Tiles Section
@@ -89,40 +93,29 @@ googleAnalytics = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
+      title = "Audiovisual Services"
+      subtitle = "Crestron Certified Designer, Engineer & Technician"
       image = "pic01.jpg"
-      url = "blogs/aliquam"
+      url = "services/audiovisual"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
+      title = "Stage Production"
+      subtitle = "Technical Director, Technician & Operator with a depth of knowledge in audio, lighting and projection"
       image = "pic02.jpg"
-      url = "blogs/tempus"
+      url = "services/stageproduction"
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
+      title = "Web Development"
+      subtitle = "Experience with everything from static websites to CMS (Wordpress, Joomla) and full-fledged web services & applications"
       image = "pic03.jpg"
-      url = "blogs/magna"
+      url = "services/webdevelopment"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
+      title = "CV / Works of Interest"
+      subtitle = "Check out my CV and some past projects"
       image = "pic04.jpg"
-      url = "blogs/ipsum"
+      url = "davidscott"
 
-    [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic05.jpg"
-      url = "blogs/ipsum"
-
-    [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
-      image = "pic06.jpg"
-      url = "blogs/ipsum"
     # You can make more showcases by copy and pasting the code above
 
   [params.blog]
@@ -135,15 +128,18 @@ googleAnalytics = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
+    title = "About Me"
     subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
     Mauris aliquet magna magna sed nunc rhoncus pharetra. 
     Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
     Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
     Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
-    url = "blogs"
+    buttonText = "CV & WORKS OF INTEREST"
+    url = "davidscott"
+    buttonText2 = "Full Description of Services"
+    url2 = "services"
 
+    
 
   # Contact section
   [params.contact]
@@ -162,48 +158,48 @@ googleAnalytics = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    # formEmail = "example@domain.com"
+    formEmail = "general@techscott.ca"
 
     # Contact Section
     # You can add multiple emails, phone numbers, or addresses
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
+    email = "general@techscott.ca"
 
     [[params.contact.phone]]
-    title = "Phone"
-    phone = "(000) 000-0000 x1234"
+    title = "Phone (Toll-Free)"
+    phone = "+1 (888) 326-3730"
 
     [[params.contact.address]]
     title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    street = ""
+    city = "Montreal, QC, H4A"
+    country = "Canada"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "TechScott"
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      url= "https://www.twitter.com"
+      url= "https://www.twitter.com/MTLweb_LIVE"
       label = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      url= "https://www.facebook.com"
+      url= "https://www.facebook.com/TechScottMTL"
       label = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-instagram"
-      url= "https://www.instagram.com"
+      url= "https://www.instagram.com/MTLweb"
       label = "Instagram"
     
     [[params.footer.social]]
       icon = "fa-github"
-      url= "https://www.github.com"
+      url= "https://www.github.com/scott-mtl"
       label = "GitHub"
 
     [[params.footer.social]]
