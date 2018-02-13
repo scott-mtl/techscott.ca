@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://www.techscott.ca/"
+baseURL = "http://alt.techscott.ca"
 languageCode = "en-us"
 title = "Techscott - Technical Services"
 theme = "forty"
@@ -129,14 +129,10 @@ googleAnalytics = ""
   [params.two]
     enable = true
     title = "About Me"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
+    subtitle = """Over the past 10 years, I have split my time between three techincal industries, moving across them with my various projects and professional posts. I've found this approach helps achieve tremendous results, as I meet each project with a fresh perspective and a refreshed spirit - free of the complacency which so often creeps up when working with too narrow a focus. I hold a passion for my three domains - stage production, web development and audiovisual integration - leading me to spend my free time focusing on the bleeding-edge developments and evolution of industry standards in each of these technical fields. If you've got an interesting new project related to one or several of my areas of expertise, please reach out to me; let's see how we can collaborate to produce something amazing!"""
     buttonText = "CV & WORKS OF INTEREST"
     url = "davidscott"
-    buttonText2 = "Full Description of Services"
+    buttonText2 = "Detailed Services"
     url2 = "services"
 
     
