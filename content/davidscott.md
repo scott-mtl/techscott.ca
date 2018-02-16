@@ -2,7 +2,7 @@
 title: "CV / Works of Interest"
 description: "Check out my CV and some past projects"
 slug: "davidscott"
-image: pic07.jpg
+image: pic04.jpg
 keywords: ""
 categories: 
     - ""

@@ -2,7 +2,7 @@
 title: "Stage Production"
 description: "Lorem Etiam Nullam"
 slug: "stageproduction"
-image: pic09.jpg
+image: pic02.jpg
 keywords: ""
 categories: 
     - ""
