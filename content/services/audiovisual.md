@@ -1,6 +1,6 @@
 ---
 title: "Audiovisual Services"
-description: ""
+description: "Educational, Commercial and Residential - Projectors, Audio, Control Systems - Crestron, AMX, Extron, Kramer"
 slug: "audiovisual"
 image: pic01.jpg
 keywords: ""

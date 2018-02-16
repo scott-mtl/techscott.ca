@@ -1,6 +1,6 @@
 ---
 title: "Web Development"
-description: ""
+description: "Static and Dynamic Websites - CMS (WordPress, Joomla, Droopal) - Web Services and Applications"
 slug: "webdevelopment"
 image: pic03.jpg
 keywords: ""

@@ -1,6 +1,6 @@
 ---
 title: "Stage Production"
-description: "Lorem Etiam Nullam"
+description: "Sound, Lighting and Projection - Technical Director and Technician - Theatre, Music, Dance"
 slug: "stageproduction"
 image: pic02.jpg
 keywords: ""
