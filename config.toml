@@ -59,6 +59,10 @@ googleAnalytics = ""
     [[params.navigation.links]]
       name = "Web Development"  
       url = "services/webdevelopment"
+    
+    [[params.navigation.links]]
+      name = "Contact"  
+      url = "#contact"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
