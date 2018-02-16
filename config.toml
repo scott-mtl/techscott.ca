@@ -106,7 +106,7 @@ googleAnalytics = ""
 
     [[params.tiles.showcase]]
       title = "Web Development"
-      subtitle = "Experience with everything from static websites to CMS (Wordpress, Joomla) and full-fledged web services & applications"
+      subtitle = "Static websites, CMS (WordPress, Joomla, Droopal) and full-fledged web services & applications"
       image = "pic03.jpg"
       url = "services/webdevelopment"
 
