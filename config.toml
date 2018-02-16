@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "http://alt.techscott.ca"
+baseURL = "http://techscott.ca"
 languageCode = "en-us"
 title = "Techscott - Technical Services"
 theme = "forty"
@@ -106,7 +106,7 @@ googleAnalytics = ""
 
     [[params.tiles.showcase]]
       title = "Web Development"
-      subtitle = "Static websites, CMS (WordPress, Joomla, Droopal) and full-fledged web services & applications"
+      subtitle = "Static websites, CMS (WordPress, Joomla, Drupal) and full-fledged web services & applications"
       image = "pic03.jpg"
       url = "services/webdevelopment"
 
@@ -129,7 +129,7 @@ googleAnalytics = ""
   [params.two]
     enable = true
     title = "About Me"
-    subtitle = "Over the past 10 years, I've split my time between three technical fields - stage production, audiovisual integration and web development. I've found this approach helps achieve tremendous results, as I meet each project with a fresh perspective and a refreshed spirit while equipped with a wealth of knowledge and experience developed over years of involvement in each field. I hold a passion for my three domains, leading me to spend my free time focusing on the bleeding-edge developments and evolution of industry standards in each of these industries. I thrive in dynamic, unique and complex environments, yet still receive great satisfaction ensuring even the smallest detail of a project is at it's best. If you've got an interesting project related to one or several of my areas of expertise, please reach out to me; let's see how we can collaborate to produce something amazing!"
+    subtitle = "Over the past 10 years, I've split my time between three technical fields - stage production, audiovisual integration and web development. I've found this approach helps achieve tremendous results, as I meet each project with a fresh perspective and a refreshed spirit while equipped with a wealth of knowledge and experience developed over years of involvement in each field. I hold a passion for my three domains, leading me to spend my free time focusing on the bleeding-edge developments and evolution of standards in each of these industries. I thrive in dynamic, unique and complex environments, yet still receive great satisfaction ensuring even the smallest detail of a project is at it's best. If you've got an interesting project related to one or several of my areas of expertise, please reach out to me; let's see how we can collaborate to produce something amazing!"
     buttonText = "CV & WORKS OF INTEREST"
     url = "davidscott"
     buttonText2 = "Detailed Services"
