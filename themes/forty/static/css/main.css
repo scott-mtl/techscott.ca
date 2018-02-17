@@ -2258,6 +2258,8 @@
 					display:block;
 					margin-left:50%;
 				}
+
+			
 			}
 
 /* List */
@@ -2630,6 +2632,15 @@
 			position: relative;
 		}
 
+		input[type="submit"].last,
+		input[type="reset"].last,
+		input[type="button"].last,
+		button.last,
+		.button.last {
+			padding-left: 4.5em;
+			position: relative;
+		}
+
 			input[type="submit"].next:before, input[type="submit"].next:after,
 			input[type="reset"].next:before,
 			input[type="reset"].next:after,
@@ -2638,7 +2649,17 @@
 			button.next:before,
 			button.next:after,
 			.button.next:before,
-			.button.next:after {
+			.button.next:after,
+			input[type="submit"].last:before, input[type="submit"].last:after,
+			input[type="reset"].last:before,
+			input[type="reset"].last:after,
+			input[type="button"].last:before,
+			input[type="button"].last:after,
+			button.last:before,
+			button.last:after,
+			.button.last:before,
+			.button.last:after
+ {
 				-moz-transition: opacity 0.2s ease-in-out;
 				-webkit-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
@@ -2655,6 +2676,16 @@
 				vertical-align: middle;
 				width: 36px;
 			}
+			input[type="button"].last:before,
+			input[type="button"].last:after,
+			button.last:before,
+			button.last:after,
+			.button.last:before,
+			.button.last:after {
+				left:1.5em;
+				background-position: center left;
+			}
+
 
 			input[type="submit"].next:before,
 			input[type="reset"].next:before,
@@ -2674,15 +2705,42 @@
 				z-index: 1;
 			}
 
+			input[type="submit"].last:before,
+			input[type="reset"].last:before,
+			input[type="button"].last:before,
+			button.last:before,
+			.button.last:before {
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='36px' height='24px' viewBox='0 0 36 24' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 2px%3B %7D%3C/style%3E%3Cline x1='0' y1='12' x2='34' y2='12' /%3E%3Cline x1='9' y1='4' x2='0' y2='12.5' /%3E%3Cline x1='9' y1='20' x2='0' y2='11.5' /%3E%3C/svg%3E");
+			}
+
+			input[type="submit"].last:after,
+			input[type="reset"].last:after,
+			input[type="button"].last:after,
+			button.last:after,
+			.button.last:after {
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='36px' height='24px' viewBox='0 0 36 24' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %239bf1ff%3B stroke-width: 2px%3B %7D%3C/style%3E%3Cline x1='0' y1='12' x2='34' y2='12' /%3E%3Cline x1='9' y1='4' x2='0' y2='12.5' /%3E%3Cline x1='9' y1='20' x2='0' y2='11.5' /%3E%3C/svg%3E");
+				opacity: 0;
+				z-index: 1;
+			}
+
 			input[type="submit"].next:hover:after, input[type="submit"].next:active:after,
+			input[type="submit"].last:hover:after, input[type="submit"].last:active:after,
 			input[type="reset"].next:hover:after,
 			input[type="reset"].next:active:after,
+			input[type="reset"].last:hover:after,
+			input[type="reset"].last:active:after,
 			input[type="button"].next:hover:after,
-			input[type="button"].next:active:after,
+			input[type="button"].next:active:after,			
+			input[type="button"].last:hover:after,
+			input[type="button"].last:active:after,
 			button.next:hover:after,
 			button.next:active:after,
+			button.last:hover:after,
+			button.last:active:after,
 			.button.next:hover:after,
-			.button.next:active:after {
+			.button.next:active:after,
+			.button.last:hover:after,
+			.button.last:active:after {
 				opacity: 1;
 			}
 
@@ -2695,6 +2753,15 @@
 				.button.next {
 					padding-right: 5em;
 				}
+
+				input[type="submit"].last,
+				input[type="reset"].last,
+				input[type="button"].last,
+				button.last,
+				.button.last {
+					padding-left: 5em;
+				}
+
 
 			}
 
@@ -3744,7 +3811,9 @@
 		}
 
 /* Footer */
-
+	#footer{
+		clear:left;
+	}
 	#footer .copyright {
 		font-size: 0.8em;
 		list-style: none;
@@ -3993,4 +4062,30 @@
 			transform: none;
 			opacity: 1;
 			visibility: visible;
+		}
+
+		
+		@media screen and (max-width: 735px) {
+			.midpage-back-button {	
+				display:none;
+			}
+			.endpage-back-button {	
+				width:30%;
+				margin:auto;
+			}
+		}
+		@media screen and (min-width: 736px) {
+			.endpage-back-button {	
+				display:none;
+			}
+			.midpage-back-button{
+			margin-top:50px;
+			margin-bottom:30px;
+			margin-left:30%;
+			}
+		}
+			.midpage-back-button {
+		}
+		#one{
+			overflow:hidden;
 		}

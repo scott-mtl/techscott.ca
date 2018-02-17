@@ -19,9 +19,21 @@
                                 <h1>{{ .Title}}</h1>
                             </header>
                             {{ if .Params.image }}
-                                <span class="image main service-image"><img src="{{ .Site.Params.baseURL }}/img/blogs/{{ .Params.image }}" alt="" /></span>
+                                <span class="image main service-image">
+                                    <img src="{{ .Site.Params.baseURL }}/img/blogs/{{ .Params.image }}" alt="" />
+                                    <ul class="actions midpage-back-button">
+                                        <li>
+                                            <script>document.write('<a href="' + document.referrer + '" class="button last scrolly">Go Back</a>');</script>
+                                        </li>
+                                    </ul>
+                                </span>
                             {{ end }}
                             {{ .Content }}
+                            <ul class="actions endpage-back-button">
+                                    <li>
+                                        <script>document.write('<a href="' + document.referrer + '" class="button last scrolly">Go Back</a>');</script>
+                                    </li>
+                                </ul>
                         </div>
                     </section>
             </div>
