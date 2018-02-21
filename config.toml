@@ -192,22 +192,22 @@ googleAnalytics = ""
       url= "https://www.facebook.com/TechScottMTL"
       label = "Facebook"
 
-    [[params.footer.social]]
-      icon = "fa-instagram"
-      url= "https://www.instagram.com/MTLweb"
-      label = "Instagram"
+    #[[params.footer.social]]
+    #  icon = "fa-instagram"
+    #  url= "https://www.instagram.com/MTLweb"
+    #  label = "Instagram"
     
-    [[params.footer.social]]
-      icon = "fa-github"
-      url= "https://www.github.com/scott-mtl"
-      label = "GitHub"
+    #[[params.footer.social]]
+    #  icon = "fa-github"
+    #  url= "https://www.github.com/scott-mtl"
+    #  label = "GitHub"
 
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      url= "https://www.linkedin.com"
-      label = "LinkedIn"
+    #[[params.footer.social]]
+    #  icon = "fa-linkedin"
+    #  url= "https://www.linkedin.com"
+    #  label = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Design: "
-      url= "https://www.html5up.net"
-      alt = "HTML5 UP"
+    #[[params.footer.quicklinks]]
+    #  text = "Design: "
+    #  url= "https://www.html5up.net"
+    #  alt = "HTML5 UP"
